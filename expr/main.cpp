@@ -2,10 +2,16 @@
 // #include <unistd.h>
 void demonprint(int t);
 void ravenprint();
+void commandprint(int t);
 int main(){
     
-    int i = 0;
     ravenprint();
+    int i = 0;
+    demonprint(i);
+    std::cout << "\t";
+    commandprint(1);
+    std::cout << "\n";
+
     while(true){
         demonprint(i);
         std::cout << "\t";
@@ -13,6 +19,14 @@ int main(){
         std::getline(std::cin, str);
         i++;
     }
+}
+void commandprint(int t){
+    std::cout << "\x1b[33m";
+    switch(t){
+        case 1: std::cout<<"use command help to view available commands";
+    }
+    std::cout << "\x1b[0m";
+
 }
 void ravenprint(){
     std::cout <<("\n>>>\t        __                                ____   ||   ____                                __        ");
