@@ -7,10 +7,13 @@
 ![Work In Progress](https://img.shields.io/badge/Work%20In%20Progress-orange?style=for-the-badge)
 
 
+</div>
 
 ## Progress
-
+<div align="center">
 ![Progress](https://img.shields.io/badge/Progress-Just_Started-brightgreen?style=for-the-badge)
-> expr folder contains things I am trying but currently nothing is there to see.
 
 </div>
+> expr/ folder contains things I am trying but other then that nothing is there
+> expr/main.cpp contains some ascii art for the project
+> expr/core.cpp contains tokenizer logic for now
