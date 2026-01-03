@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <algorithm>
 enum Tokentype{WORD, PIPE};
 struct Token{
     std::string value;
@@ -52,6 +53,7 @@ public:
             }
         }
         addToVector(currentstr, tokens);
+        cleanUp(tokens);
         return tokens;
     }
 private:
@@ -68,6 +70,11 @@ private:
         newtoken.type = Tokentype::PIPE;
         tokens.push_back(newtoken);
     }
+    void cleanUp(std::vector<Token>&tokens){
+        std::string empty;
+        int n = tokens.size();
+        tokens.erase(std::remove_if(tokens.begin(),tokens.end(),[](const Token& t){return t.value.empty();}),tokens.end());
+    }
     
 };
 int main(){
@@ -79,7 +86,7 @@ int main(){
         int n=1;
         std::string empty;
         for(Token t: tokens){
-            if(t.value == empty) continue;
+            // if(t.value == empty) continue;
             std::string type = (t.type==Tokentype::WORD)? "WORD":"PIPE";
             std::cout << n<<". type: " <<type<<"\t\t\t value: "<<t.value <<"\n";
             n++;
