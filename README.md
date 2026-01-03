@@ -11,9 +11,11 @@
 
 ## Progress
 <div align="center">
+
 ![Progress](https://img.shields.io/badge/Progress-Just_Started-brightgreen?style=for-the-badge)
 
 </div>
+
 > expr/ folder contains things I am trying but other then that nothing is there
 > expr/main.cpp contains some ascii art for the project
 > expr/core.cpp contains tokenizer logic for now
