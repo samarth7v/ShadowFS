@@ -10,7 +10,7 @@
 
 ## Progress
 
-### Just started
+![Progress](https://img.shields.io/badge/Progress-Just_Started-brightgreen?style=for-the-badge)
 > expr folder contains things I am trying but currently nothing is there to see.
 
 </div>
