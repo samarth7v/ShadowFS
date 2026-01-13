@@ -25,8 +25,10 @@
 </ul>
 
 <h2> Progress </h2>
-<div align="center">
 
-![Progress](https://img.shields.io/badge/Progress-Just_Started-brightgreen?style=for-the-badge)
-
-</div>
+<ul>
+<li> Created folder structure.</li>
+<li> Added placeholder files.</li>
+<li> Added README.md.</li>
+<li> Added DESIGN.md.</li>
+</ul>
