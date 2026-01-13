@@ -32,3 +32,7 @@
 <li> Added README.md.</li>
 <li> Added DESIGN.md.</li>
 </ul>
+
+## Documentation
+
+- [Design Document](DESIGN.md)
