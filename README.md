@@ -17,8 +17,9 @@
 </pre>
 </div>
 <h2> Project Goal </h2>
-- ShadowFS is virtual file system implemented in C++
-
+<ul>
+<li> ShadowFS is virtual file system implemented in C++</li>
+</ul>
 
 <h2> Progress </h2>
 <div align="center">
@@ -26,9 +27,8 @@
 ![Progress](https://img.shields.io/badge/Progress-Just_Started-brightgreen?style=for-the-badge)
 
 </div>
-
-- expr/ folder contains things I am trying but other then that nothing is there
-
-- expr/main.cpp contains some ascii art for the project
-
-- expr/core.cpp contains tokenizer logic for now
+<ul>
+<li> expr/ folder contains things I am trying but other then that nothing is there</li>
+<li> expr/main.cpp contains some ascii art for the project</li>
+<li> expr/core.cpp contains tokenizer logic for now</li>
+</ul>
