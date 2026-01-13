@@ -18,7 +18,9 @@
 </div>
 <h2> Project Goal </h2>
 <ul>
-<li> ShadowFS is virtual file system implemented in C++</li>
+<li> ShadowFS is virtual file system implemented in C++.</li>
+<li> It is command line app.</li>
+<li> It will simulates UNIX like file system using disk image based storage, inode based metadata and layered architecture.</li>
 </ul>
 
 <h2> Progress </h2>
