@@ -16,7 +16,7 @@
         \/      \/     \/      \/                  \/          \/ 
 </pre>
 </div>
-## Progress
+<h2> Progress </h2>
 <div align="center">
 
 ![Progress](https://img.shields.io/badge/Progress-Just_Started-brightgreen?style=for-the-badge)
