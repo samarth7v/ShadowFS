@@ -18,3 +18,16 @@
 - Inode contains file metadata.
 - Inode also contains pointers to disk blocks which are used by this file to store data.
 - Read and write operations use these blocks pointed by inode to access or modify current file.
+
+## Folder Structure
+
+
+ShadowFS/
+├── disk/        # block read/write logic
+├── fs/          # inodes, directories, allocation
+├── cli/         # command interface
+├── utils/       # helper functions
+├── main.cpp
+├── README.md
+├── DESIGN.md
+└── LICENSE
