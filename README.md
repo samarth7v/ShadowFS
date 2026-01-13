@@ -20,7 +20,8 @@
 <ul>
 <li> ShadowFS is virtual file system implemented in C++.</li>
 <li> It is command line app.</li>
-<li> It will simulates UNIX like file system using disk image based storage, inode based metadata and layered architecture.</li>
+<li> It will simulates UNIX like file system using disk image and block based storage, inode based metadata and layered architecture.</li>
+<li> Check DESIGN.md for design of the project</li>
 </ul>
 
 <h2> Progress </h2>
