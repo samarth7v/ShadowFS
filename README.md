@@ -4,9 +4,6 @@
   <h5>VIRTUAL FILE SYSTEM</h5>
   <h6>Here starts my first open source project</a></h6>
 
-![Work In Progress](https://img.shields.io/badge/Work%20In%20Progress-orange?style=for-the-badge)
-
-
 <pre>
   _________.__                .___            ____________________
  /   _____/|  |__ _____     __| _/______  _  _\_   _____/   _____/
@@ -15,6 +12,8 @@
 /_______  /|___|  (____  /\____ |\____/ \/\_/  \___  / /_______  /
         \/      \/     \/      \/                  \/          \/ 
 </pre>
+
+![Work In Progress](https://img.shields.io/badge/Work%20In%20Progress-orange)
 </div>
 
 ## Project Goal
