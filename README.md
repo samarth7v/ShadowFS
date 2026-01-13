@@ -29,8 +29,8 @@
 <ul>
 <li> Created folder structure.</li>
 <li> Added placeholder files.</li>
-<li> Added README.md.</li>
-<li> Added DESIGN.md.</li>
+<li> Added [README.md](README.md).</li>
+<li> Added [DESIGN.md](DESIGN.md).</li>
 </ul>
 
 ## Documentation
