@@ -21,7 +21,7 @@
 
 ## Folder Structure
 
-
+<pre>
 ShadowFS/
 ├── disk/        # block read/write logic
 ├── fs/          # inodes, directories, allocation
@@ -31,3 +31,4 @@ ShadowFS/
 ├── README.md
 ├── DESIGN.md
 └── LICENSE
+</pre>
