@@ -16,6 +16,10 @@
         \/      \/     \/      \/                  \/          \/ 
 </pre>
 </div>
+<h2> Project Goal </h2>
+- ShadowFS is virtual file system implemented in C++
+
+
 <h2> Progress </h2>
 <div align="center">
 
