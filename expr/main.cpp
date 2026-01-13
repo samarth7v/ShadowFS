@@ -7,7 +7,7 @@ int main(){
     
     ravenprint();
     int i = 0;
-    demonprint(i);
+    demonprint(17);
     std::cout << "\t";
     commandprint(1);
     std::cout << "\n";
@@ -29,90 +29,74 @@ void commandprint(int t){
 
 }
 void ravenprint(){
-    std::cout <<("\n>>>\t        __                                ____   ||   ____                                __        ");
-    std::cout <<("\n>>>\t   ___ |_ \\__   __   __ _ _____   ___ __ / _  |  ||  |  _ \\ __ ___   _____ _ __   __   __/ _| ___");
-    std::cout <<("\n>>>\t  |__ \\ _| \\ \\ / /  / _` / _ \\ \\ / / '_ \\ (_| |  ||  | |_) / _' \\ \\ / / _ \\ `_ \\  \\ \\ / / |_ / __|");
-    std::cout <<("\n>>>\t _/ __/|_  |\\ V /  | | | \\__  \\ V /| |_) > _  |  ||  |  _ < (_| |\\ V /  __/ | | |  \\ V /|  _|\\__ \\_");
-    std::cout <<("\n>>>\t(_)___(_)|_(_)_/   |_| |_|___/ \\_/ |_.__/_/ |_|  ||  |_| \\_\\__._| \\_/ \\___|_| |_|   \\_(_)_|(_)___(_)\n");
+    std::cout <<("\n>>>\t  _________.__                .___            ____________________");
+    std::cout <<("\n>>>\t /   _____/|  |__ _____     __| _/______  _  _\\_   _____/   _____/");
+    std::cout <<("\n>>>\t \\_____  \\ |  |  \\\\__  \\   / __ |/  _ \\ \\/ \\/ /|    __) \\_____  \\ ");
+    std::cout <<("\n>>>\t /        \\|   Y  \\/ __ \\_/ /_/ (  <_> )     / |     \\  /        \\");
+    std::cout <<("\n>>>\t/_______  /|___|  (____  /\\____ |\\____/ \\/\\_/  \\___  / /_______  /");
+    std::cout <<("\n>>>\t        \\/      \\/     \\/      \\/                  \\/          \\/ \n");
 }
 void demonprint(int t){
-    int j = t%25 +1;
+    int j = t%19;
     switch(j){
+        case 0:
+            std::cout << "                                                ";
+            break;
         case 1:
-            std::cout << "                     _______                 >>>";
+            std::cout << "                  _________-----_____                  ";
             break;
         case 2:
-            std::cout << "              ,,--''         ''--,,          >>>";
+            std::cout << "       _____------           __      ----_             ";
             break;
         case 3:
-            std::cout << "           ,-'                     '-,       >>>";
+            std::cout << "___----             ___------              \\           ";
             break;
         case 4:
-            std::cout << "          /                           \\      >>>";
+            std::cout << "   ----________        ----                 \\          ";
             break;
         case 5:
-            std::cout << "          |                           |      >>>";
+            std::cout << "               -----__    |             _____)         ";
             break;
         case 6:
-            std::cout << "          |                           |      >>>";
+            std::cout << "                    __-                /     \\         ";
             break;
         case 7:
-            std::cout << "          | |\\                     /| |      >>>";
+            std::cout << "        _______-----    ___--          \\    /)\\        ";
             break;
         case 8:
-            std::cout << "     |\\   | | \\                   / | |   /| >>>";
+            std::cout << "  ------_______      ---____            \\__/  /        ";
             break;
         case 9:
-            std::cout << "     | \\  | |  '-,             ,-'  | |  / | >>>";
+            std::cout << "               -----__    \\ --    _          /\\        ";
             break;
         case 10:
-            std::cout << "     |  '-| |     '-,       ,-'     | |-'  | >>>";
+            std::cout << "                      --__--__     \\_____/   \\_/\\      ";
             break;
         case 11:
-            std::cout << "     |      |        \\     /        |      | >>>";
+            std::cout << "                              ----|   /          |     ";
             break;
         case 12:
-            std::cout << "     |      |    ,-;;/     \\;;-,    |      | >>>";
+            std::cout << "                                  |  |___________|     ";
             break;
         case 13:
-            std::cout << "     |  ,'   \\__|;;;/ ,   , \\;;;|__/   ',  | >>>";
+            std::cout << "                                  |  | ((_(_)| )_)     ";
             break;
         case 14:
-            std::cout << "      \\/              |   |              \\/  >>>";
+            std::cout << "                                  |  \\_((_(_)|/(_)     ";
             break;
         case 15:
-            std::cout << "      /             ,-|   |-,             \\  >>>";
+            std::cout << "                                  \\             (      ";
             break;
         case 16:
-            std::cout << "      ;             \\       /             ;  >>>";
+            std::cout << "                                   \\_____________)     ";
             break;
         case 17:
-            std::cout << "       \\             '-, ,-'             /   >>>";
+            std::cout << "                                                ";
             break;
         case 18:
-            std::cout << "        '-,,            '            ,,-'    >>>";
+            std::cout << "                                                ";
             break;
-        case 19:
-            std::cout << "            '-,    \\'-,           ,-'        >>>";
-            break;
-        case 20:
-            std::cout << "               ',   \\  ''--,,   ,'           >>>";
-            break;
-        case 21:
-            std::cout << "                 \\   ''--,, /  /             >>>";
-            break;
-        case 22:
-            std::cout << "                 |\\           /|             >>>";
-            break;
-        case 23:
-            std::cout << "                 |(           )|             >>>";
-            break;
-        case 24:
-            std::cout << "                 |'-,       ,-'|             >>>";
-            break;
-        case 25:
-            std::cout << "                     ''-,-''                 >>>";
-            break;
+
     
     }
 }
