@@ -16,22 +16,21 @@
         \/      \/     \/      \/                  \/          \/ 
 </pre>
 </div>
-<h2> Project Goal </h2>
-<ul>
-<li> ShadowFS is virtual file system implemented in C++.</li>
-<li> It is command line app.</li>
-<li> It will simulates UNIX like file system using disk image and block based storage, inode based metadata and layered architecture.</li>
-<li> Check DESIGN.md for design of the project</li>
-</ul>
 
-<h2> Progress </h2>
+## Project Goal
 
-<ul>
-<li> Created folder structure.</li>
-<li> Added placeholder files.</li>
-<li> Added [README.md](README.md).</li>
-<li> Added [DESIGN.md](DESIGN.md).</li>
-</ul>
+- ShadowFS is virtual file system implemented in C++.
+- It is command line app.
+- It will simulates UNIX like file system using disk image and block based storage, inode based metadata and layered architecture.
+- Check DESIGN.md for design of the project
+
+## Progress
+
+- Created folder structure.
+- Added placeholder files.
+- Added [README.md](README.md).
+- Added [DESIGN.md](DESIGN.md).
+
 
 ## Documentation
 
